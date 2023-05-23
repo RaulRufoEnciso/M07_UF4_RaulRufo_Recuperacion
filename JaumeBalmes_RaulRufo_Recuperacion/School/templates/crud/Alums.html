@@ -1,0 +1,12 @@
+{% extends 'index.html' %}
+{% block content %}
+    {% for alumnos in alumno %}
+        <p>{{ alumnos.nombre }}</p>
+        <p>{{ alumnos.apellido }}</p>
+        <p>{{ alumnos.segundoApellido }}</p>
+        <p>{{ alumnos.edad }}</p>
+        <p>{{ alumnos.email }}</p>
+        <p>{{ alumnos.telefono }}</p>
+
+    {% endfor %}
+{% endblock %}

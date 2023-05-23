@@ -1,0 +1,12 @@
+{% extends 'index.html' %}
+{% block content %}
+    {% for profesores in profs %}
+        <p>{{ profesores.nombre }}</p>
+        <p>{{ profesores.apellido }}</p>
+        <p>{{ profesores.segundoApellido }}</p>
+        <p>{{ profesores.email }}</p>
+        <p>{{ profesores.telefono }}</p>
+        <p>{{ profesores.imparte }}</p>
+
+    {% endfor %}
+{% endblock %}

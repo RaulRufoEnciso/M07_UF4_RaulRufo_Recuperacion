@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Recuperaciones</title>
+</head>
+<body>
+    <!-- Formulario para Alumnos -->
+    <a href="{% url 'Alumnos_Form' %}">Agregar Alumno</a>
+    <p></p>
+    <!-- Formulario para Profesores -->
+    <a href="{% url 'Profesor_Form' %}">Agregar Profesor</a>
+    {% block content %}
+
+    {% endblock %}
+</body>
+</html>
