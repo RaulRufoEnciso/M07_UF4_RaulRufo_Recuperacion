@@ -4,6 +4,7 @@ Primero creamos la base de datos y la dejamos vacia
 Ahora vamos al proyecto y creamos los modelos de Alumnos,
 ![img_1.png](img_1.png)
 
+
 y de Profesores
 ![img_2.png](img_2.png)
 
