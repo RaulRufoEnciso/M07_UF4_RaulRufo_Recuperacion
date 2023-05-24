@@ -30,7 +30,7 @@ datos recogidos del formulario y enviarlos a la base de datos.
 ![img_10.png](img_10.png)     
 
 Para acabar crearemos en la carpeta templates una subcarpeta 
-llamada formularios en los que añadiremos los dos form.html.
+llamada formularios en los que añadiremos los dos form.html.      
 ![img_7.png](img_7.png)      
 ![img_8.png](img_8.png)     
 
