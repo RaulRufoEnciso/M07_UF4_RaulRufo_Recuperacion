@@ -6,10 +6,10 @@
 </head>
 <body>
     <!-- Formulario para Alumnos -->
-    <a href="{% url 'Alumnos_Form' %}">Agregar Alumno</a>
+    <button><a href="{% url 'Alumnos_Form' %}">Agregar Alumno</a></button>
     <p></p>
     <!-- Formulario para Profesores -->
-    <a href="{% url 'Profesor_Form' %}">Agregar Profesor</a>
+    <button><a href="{% url 'Profesor_Form' %}">Agregar Profesor</a></button>
     {% block content %}
 
     {% endblock %}
